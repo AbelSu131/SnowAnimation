@@ -12,6 +12,8 @@
 		B5C4CCDA1BC58363001B2598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C4CCD81BC58363001B2598 /* Main.storyboard */; };
 		B5C4CCDC1BC58363001B2598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C4CCDB1BC58363001B2598 /* Assets.xcassets */; };
 		B5C4CCDF1BC58363001B2598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C4CCDD1BC58363001B2598 /* LaunchScreen.storyboard */; };
+		B5C4CCE71BC58A17001B2598 /* xh.png in Resources */ = {isa = PBXBuildFile; fileRef = B5C4CCE61BC58A17001B2598 /* xh.png */; settings = {ASSET_TAGS = (); }; };
+		B5C4CCE91BC58AD4001B2598 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C4CCE81BC58AD4001B2598 /* UIImage+Extension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B5C4CCDB1BC58363001B2598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C4CCDE1BC58363001B2598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5C4CCE01BC58363001B2598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C4CCE61BC58A17001B2598 /* xh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xh.png; sourceTree = "<group>"; };
+		B5C4CCE81BC58AD4001B2598 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				B5C4CCD41BC58362001B2598 /* AppDelegate.swift */,
 				B5C4CCD61BC58362001B2598 /* ViewController.swift */,
 				B5C4CCD81BC58363001B2598 /* Main.storyboard */,
+				B5C4CCE61BC58A17001B2598 /* xh.png */,
 				B5C4CCDB1BC58363001B2598 /* Assets.xcassets */,
 				B5C4CCDD1BC58363001B2598 /* LaunchScreen.storyboard */,
 				B5C4CCE01BC58363001B2598 /* Info.plist */,
+				B5C4CCE81BC58AD4001B2598 /* UIImage+Extension.swift */,
 			);
 			path = SnowAnimation;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C4CCDF1BC58363001B2598 /* LaunchScreen.storyboard in Resources */,
+				B5C4CCE71BC58A17001B2598 /* xh.png in Resources */,
 				B5C4CCDC1BC58363001B2598 /* Assets.xcassets in Resources */,
 				B5C4CCDA1BC58363001B2598 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C4CCE91BC58AD4001B2598 /* UIImage+Extension.swift in Sources */,
 				B5C4CCD71BC58362001B2598 /* ViewController.swift in Sources */,
 				B5C4CCD51BC58362001B2598 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +292,7 @@
 				B5C4CCE51BC58363001B2598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
